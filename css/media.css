@@ -1,0 +1,56 @@
+@media (max-width: 720px) {
+    header, footer {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .header__logo {
+        height: 20px;
+    }
+
+header a {
+    margin-right: 10px;
+}
+
+    .about, .form {
+        padding: 50px 10px;
+    }
+
+    .about, .footer__container {
+        flex-direction: column-reverse;
+    }
+
+    .about h1, .form h1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .about__info {
+        width: 100%;
+    }
+
+    .about__image {
+        width: 280px;
+    }
+    .about__sun-image {
+        width: 75px;
+        height: 75px;
+    }
+}
+
+@media (max-width: 1024px) {
+    header, footer, .about, .form {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .about__image {
+        width: 280px;
+    }
+    .about__sun-image {
+        width: 75px;
+        height: 75px;
+    }
+    .about h1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+}
